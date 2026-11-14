@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Partner-API-Sharing-Ecosystem/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -70,69 +70,69 @@ Commercial, cloud-hosted Partner API Sharing and Ecosystem platforms sorted by p
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Partner API Sharing, Gateway, and Developer Portal platforms. Sorted in **descending order by GitHub star count**:
+Self-hosted, community-driven Partner API Sharing, Gateway, and Developer Portal platforms. Sorted in **descending order by GitHub Stars_Count**:
 
-### 1. Traefik [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
+### 1. Traefik [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
 - 💻 **Stack:** Go | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [traefik/traefik](https://github.com/traefik/traefik)
 - 📌 **Overview:** Traefik is a leading cloud-native HTTP reverse proxy and ingress controller designed for microservices and dynamic container orchestration. For partner API sharing, Traefik natively integrates with Kubernetes, Docker, and Consul, offering automatic service discovery, automatic TLS certificate termination (Let's Encrypt), granular rate limiting, authentication middleware, and traffic routing.
 - 🎯 **Best for:** Teams needing dynamic, zero-configuration microservice ingress and routing for external and internal partner traffic.
 
-### 2. Kong Gateway (OSS) [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
+### 2. Kong Gateway (OSS) [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
 - 💻 **Stack:** Lua (OpenResty / NGINX) | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [Kong/kong](https://github.com/Kong/kong)
 - 📌 **Overview:** Kong Gateway is the world's most widely adopted open-source cloud-native API gateway. It provides sub-millisecond routing, request/response transformation, authentication (OAuth2, Key Auth, HMAC, JWT), traffic control (rate limiting, rate limiting advanced), and observability. It boasts a huge ecosystem of plugins and supports DB-less, PostgreSQL-backed, and hybrid topologies.
 - 🎯 **Best for:** High-throughput production gateway runtimes enforcing robust access controls and policies across partner endpoints.
 
-### 3. Backstage [![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)
+### 3. Backstage [![GitHub_Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)
 - 💻 **Stack:** TypeScript / React / Node.js | 📜 **License:** Apache-2.0 (CNCF Incubating)
 - 🔗 **Repository:** [backstage/backstage](https://github.com/backstage/backstage)
 - 📌 **Overview:** Created by Spotify and donated to the CNCF, Backstage is the industry-standard developer portal platform. It centralizes software catalogs, API specifications (OpenAPI, AsyncAPI, gRPC), documentation, and tech radars in a single unified interface. Teams leverage Backstage to build tailored, branded partner developer portals that integrate with their choice of API gateway.
 - 🎯 **Best for:** Platform engineering teams wanting to build a custom, branded developer portal and catalog for internal and external partner onboarding.
 
-### 4. Envoy [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
+### 4. Envoy [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
 - 💻 **Stack:** C++ | 📜 **License:** Apache-2.0 (CNCF Graduated)
 - 🔗 **Repository:** [envoyproxy/envoy](https://github.com/envoyproxy/envoy)
 - 📌 **Overview:** Envoy is a high-performance, L7 proxy and communication bus designed for modern service-oriented and cloud-native architectures. With native support for HTTP/2, HTTP/3, and gRPC, Envoy delivers unmatched networking throughput, advanced load balancing, circuit breaking, fault injection, and end-to-end security observability for partner APIs.
 - 🎯 **Best for:** Hyper-scale architectures requiring low-latency edge and mesh proxying between partner services and internal clusters.
 
-### 5. Swagger UI [![GitHub stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)
+### 5. Swagger UI [![GitHub_Stars](https://img.shields.io/github/stars/swagger-api/swagger-ui?style=social&color=white)](https://github.com/swagger-api/swagger-ui/stargazers)
 - 💻 **Stack:** JavaScript / HTML / CSS | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
 - 📌 **Overview:** Swagger UI is the ubiquitous open-source documentation interface for OpenAPI specifications. It visualizes and facilitates partner interaction with API resources without having implementation logic in place. It powers the interactive "try-it-out" consoles of countless partner portals across the globe.
 - 🎯 **Best for:** Embedding lightweight, standardized interactive API documentation directly into developer portals and partner onboarding docs.
 
-### 6. Apache APISIX [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
+### 6. Apache APISIX [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
 - 💻 **Stack:** Lua (NGINX + LuaJIT) / etcd | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [apache/apisix](https://github.com/apache/apisix)
 - 📌 **Overview:** Apache APISIX is a top-level Apache Software Foundation project providing dynamic, high-performance API orchestration. Built on NGINX and etcd, it eliminates server reloads during configuration updates and features rich out-of-the-box plugins for authentication, rate limiting, canary releases, and AI proxying.
 - 🎯 **Best for:** Enterprises demanding ultra-high-performance dynamic routing and cloud-native gateway administration.
 
-### 7. Scalar [![GitHub stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)
+### 7. Scalar [![GitHub_Stars](https://img.shields.io/github/stars/scalar/scalar?style=social&color=white)](https://github.com/scalar/scalar/stargazers)
 - 💻 **Stack:** TypeScript / Vue / Node.js | 📜 **License:** MIT
 - 🔗 **Repository:** [scalar/scalar](https://github.com/scalar/scalar)
 - 📌 **Overview:** Scalar is a modern, developer-centric interactive API documentation suite and developer portal engine. It features instant search, built-in API testing clients, code snippets in multiple languages, and a beautiful UI designed to drastically improve partner developer experience (DX) and accelerate time-to-first-request.
 - 🎯 **Best for:** Fast-growing startups and enterprises looking to upgrade static documentation into a modern, interactive partner developer portal.
 
-### 8. Tyk Gateway (OSS) [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
+### 8. Tyk Gateway (OSS) [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)
 - 💻 **Stack:** Go | 📜 **License:** MPL-2.0
 - 🔗 **Repository:** [TykTechnologies/tyk](https://github.com/TykTechnologies/tyk)
 - 📌 **Overview:** Written in Go with zero third-party dependencies, Tyk Gateway is a fast, lightweight open-source API gateway. It natively handles rate limiting, quotas, token management (OAuth2, JWT, Bearer tokens), key management, and API versioning. Its plugin architecture supports languages like Python, JavaScript, and Go.
 - 🎯 **Best for:** Engineering teams prioritizing a Go-native, lightweight gateway runtime with flexible plugin extensibility.
 
-### 9. Lago [![GitHub stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)
+### 9. Lago [![GitHub_Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers)
 - 💻 **Stack:** Ruby on Rails / PostgreSQL / Go | 📜 **License:** AGPL-3.0
 - 🔗 **Repository:** [getlago/lago](https://github.com/getlago/lago)
 - 📌 **Overview:** Lago is an open-source metering, billing, and monetization engine built for modern SaaS and partner API ecosystems. It meters real-time API call events, handles tiered pricing, subscriptions, overages, and partner revenue sharing, seamlessly integrating with gateways and payment providers like Stripe and Adyen.
 - 🎯 **Best for:** Organizations implementing usage-based monetization and tiered metering for external partner APIs.
 
-### 10. WSO2 API Manager [![GitHub stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)
+### 10. WSO2 API Manager [![GitHub_Stars](https://img.shields.io/github/stars/wso2/product-apim?style=social&color=white)](https://github.com/wso2/product-apim/stargazers)
 - 💻 **Stack:** Java | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [wso2/product-apim](https://github.com/wso2/product-apim)
 - 📌 **Overview:** WSO2 API Manager is a comprehensive open-source full-lifecycle API platform delivering API design, publishing, gateway routing, traffic control, and a dedicated Developer Portal out of the box. Partners can self-register, discover APIs, subscribe to tiers, generate OAuth2 keys, test endpoints in an interactive console, and track their analytics.
 - 🎯 **Best for:** Enterprises requiring an all-in-one open-source package containing both runtime gateway and a customizable partner developer portal.
 
-### 11. Gravitee API Management [![GitHub stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers)
+### 11. Gravitee API Management [![GitHub_Stars](https://img.shields.io/github/stars/gravitee-io/gravitee-api-management?style=social&color=white)](https://github.com/gravitee-io/gravitee-api-management/stargazers)
 - 💻 **Stack:** Java | 📜 **License:** Apache-2.0
 - 🔗 **Repository:** [gravitee-io/gravitee-api-management](https://github.com/gravitee-io/gravitee-api-management)
 - 📌 **Overview:** Gravitee is an open-core API management platform uniting synchronous REST/HTTP APIs with asynchronous event-driven architectures (Kafka, MQTT, WebSockets, Webhooks). It includes an open-source Developer Portal for self-service partner onboarding, comprehensive API governance, and flexible policy management.
