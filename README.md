@@ -9,12 +9,8 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [MuleSoft Anypoint Partner Manager](#mulesoft-anypoint-partner-manager)
-  - [Kong Konnect](#kong-konnect)
-  - [WSO2 API Manager (Cloud)](#wso2-api-manager-cloud)
-  - [Tyk Developer Portal](#tyk-developer-portal)
-  - [RapidAPI Enterprise Hub](#rapidapi-enterprise-hub)
 - [Open-Source Software](#-open-source-software)
   - [WSO2 API Manager](#wso2-api-manager)
   - [Kong Gateway (OSS)](#kong-gateway-oss)
@@ -27,41 +23,23 @@
 
 ---
 
+## 🌐 Sector Overview & Market Dynamics
+
+The global API management and partner ecosystem market is valued at approximately **$7.7 Billion - $8.2 Billion** (growing at an estimated 16%–18% CAGR toward ~$21 Billion+ by 2030). The sector is **moderately concentrated at the top but surrounded by a fragmented, highly competitive fringe**: hyperscalers and legacy enterprise titans (Salesforce/MuleSoft, Google Apigee, Microsoft Azure, IBM) command the dominant enterprise market share, while specialized open-core/cloud-native challengers (Kong, Tyk, WSO2, Gravitee) aggressively compete and prevent a winner-take-all monopoly by driving innovation in developer portals, microservices, and AI/LLM gateway mediation.
+
+---
+
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Partner API Sharing and Ecosystem platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Partner API Sharing and Ecosystem platforms sorted by company scale (valuation / acquisition price):
 
-### MuleSoft Anypoint Partner Manager
-**Type:** B2B partner onboarding and EDI/API ecosystem management
-Anypoint Partner Manager provides end-to-end management of partner onboarding, hosted endpoints, message flows, and tracking for B2B transactions . Key capabilities include:
-- **Partner self-service onboarding** with hosted endpoints and partner profiles 
-- **Message flow management** for EDI and API transactions with tracking and visibility 
-- **Trading partner directory** with tracking IDs, formats, and identifiers 
-- **B2B message validation** and reconciliation across formats 
-- **API-led connectivity** to backend systems including SAP, NetSuite, and Salesforce 
-
-For retail partners, MuleSoft provides a **Retail Partner Integration** solution connecting suppliers, carriers, brokers, and distributors with APIs, EDI, and partner data management . It supports **UN/EDIFACT, X12, CSV, and API** formats in a single platform, with pre-built accelerators for major retailers like Walmart, Target, and Amazon .
-**Best for:** Enterprises with complex B2B partner ecosystems needing unified EDI and API onboarding, with pre-built retail accelerators for major trading partners.
-
-### Kong Konnect
-**Type:** API management with developer portal and AI gateway
-Kong Konnect is the commercial control plane for Kong Gateway, adding **management, developer portal, and enterprise features** including RBAC, SSO, audit logging, and MCP proxy that are not available in the open-source gateway . The **Developer Portal** lets teams publish APIs to internal and external partners, with self-service onboarding, documentation, and credential management. Kong's 2026 roadmap focuses on API-to-AI connectivity, covering APIs, event streams, agents, LLMs, and MCP servers—though pricing is sometimes complex and vertical offerings are absent .
-**Best for:** Organizations wanting a mature, widely deployed gateway with a commercial developer portal and governance layer for partner ecosystems.
-
-### WSO2 API Manager (Cloud)
-**Type:** Full-lifecycle API management with developer portal
-WSO2 API Manager Cloud provides a complete API management solution with **publisher, developer portal, and gateway** components. The Developer Portal enables partner onboarding with **self-service registration, API documentation, and application creation**. It supports OAuth2, SAML, and OIDC authentication, with rate limiting and monetization capabilities. WSO2 is positioned for enterprises wanting a standards-based, open-core API management platform.
-**Best for:** Organizations wanting a comprehensive API management suite with strong developer portal capabilities and a path from open-source to cloud.
-
-### Tyk Developer Portal
-**Type:** Full management stack with multi-tenancy in OSS
-Tyk is written in Go and provides a **full management stack in its open-source edition**, including a dashboard and developer portal—one of the few gateways offering multi-tenancy in OSS . The **Developer Portal** is API-driven and themeable, letting you build a branded self-service experience for partners. It supports API keys, OAuth2, JWT, and OpenID Connect, with rate limiting, quotas, and analytics. **Trade-off:** Smaller community than Kong or Envoy, and performance under extreme load trails C++/Nginx-based alternatives .
-**Best for:** Teams wanting a complete OSS management stack (gateway + dashboard + portal) with multi-tenancy, accepting a smaller ecosystem.
-
-### RapidAPI Enterprise Hub
-**Type:** Internal API marketplace for partner sharing
-RapidAPI Enterprise Hub provides an **internal API marketplace** that helps you govern and share APIs across teams and partners in a structured, self-service manner . It is a white-labeled private marketplace with API discovery, documentation, and access controls. It is positioned for organizations that want to replicate the RapidAPI marketplace experience internally, with partner onboarding and API monetization capabilities.
-**Best for:** Organizations wanting an internal API marketplace with self-service discovery and governance, particularly those already using RapidAPI's public marketplace.
+| Platform | Type / Focus | Valuation / Revenue | Starting Price | Free Tier / Trial Limits | Best For |
+|---|---|---|---|---|---|
+| **MuleSoft Anypoint Partner Manager** | B2B partner onboarding & EDI/API ecosystem management | **$6.5B** valuation (Salesforce acquisition; ~$300M ARR at buyout) | **$2,000/mo** ($24,000/yr starting package for entry integration tier) | **30-day free trial** (Sales-assisted POC / restricted capacity; no permanent free tier) | Enterprises with complex B2B partner ecosystems needing unified EDI and API onboarding |
+| **Kong Konnect** | API management control plane with developer portal & AI gateway | **$2.0B** valuation ($175M Series E; $100M+ ARR) | **$25/mo** (Serverless control plane; Hybrid starts at $200/mo, Cloud at $500/mo) | **30-day free trial** of Konnect Plus (no hard gateway limit, 30-day analytics retention; OSS gateway is free forever) | Organizations wanting a mature, widely deployed gateway with commercial portal & AI governance |
+| **RapidAPI Enterprise Hub** | Internal API marketplace & partner sharing hub | **$1.0B** valuation (Series D; acquired by Nokia; ~$24M ARR) | **Custom quote** (Contract-based; minimum 5 team seats required) | **Custom sales-led POC / pilot** (No self-serve or permanent free tier for Enterprise Hub) | Organizations wanting an internal API marketplace with self-service discovery and governance |
+| **WSO2 API Manager (Cloud)** | Full-lifecycle API management with developer portal | **$600M+** valuation (Acquired by EQT; ~$100M ARR) | **$119/mo** (Growth plan; covers 10 APIs and up to 10M requests/mo) | **30-day free trial** (Up to 5 APIs, 1M requests/mo, 1 Hybrid Gateway, 1 Developer Portal; core OSS self-hosted is free forever) | Organizations wanting comprehensive API management suite with developer portal and open-core flexibility |
+| **Tyk Developer Portal** | API gateway & developer portal management stack | **$140M** valuation ($35M Series B; capital-efficient B-Corp) | **Quote-based commercial tiers** (Historical cloud tiers from ~$600/mo; Professional offers flat data-plane pricing) | **48-hour free trial** of Tyk Cloud (Full access; 14-day trial key for self-managed dashboard & portal; OSS gateway is free forever) | Teams wanting a complete management stack with multi-tenancy and flat data plane pricing options |
 
 ---
 
