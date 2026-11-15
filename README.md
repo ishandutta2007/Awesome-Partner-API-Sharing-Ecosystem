@@ -70,7 +70,7 @@ Commercial, cloud-hosted Partner API Sharing and Ecosystem platforms sorted by p
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Partner API Sharing, Gateway, and Developer Portal platforms. Sorted in **descending order by GitHub Stars_Count**:
+Self-hosted, community-driven Partner API Sharing, Gateway, and Developer Portal platforms. Sorted in **descending order by GitHub_Stars_Count**:
 
 ### 1. Traefik [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
 - 💻 **Stack:** Go | 📜 **License:** Apache-2.0
